@@ -21,9 +21,11 @@ public class CarProccesor {
     }
 
     static void printCarToModel(String model) {
-        for (Car search : carArray) {
-            if (search.model.equals(model) == true) {
-                search.printCar();
+        if (carArray.length > 0) {
+            for (Car search : carArray) {
+                if (search.model.equals(model) == true) {
+                    search.printCar();
+                }
             }
         }
     }
@@ -38,9 +40,11 @@ public class CarProccesor {
     }
 
     static void printCarToFiltreYearЕxploitation(String model, int year) {
-        for (Car search : carArray) {
-            if (search.model.equals(model) == true && search.yearRelease - year < 1) {
-                search.printCar();
+        if (carArray.length > 0) {
+            for (Car search : carArray) {
+                if (search.model.equals(model) == true && search.yearRelease - year < 1) {
+                    search.printCar();
+                }
             }
         }
     }
@@ -53,9 +57,10 @@ public class CarProccesor {
     }
 
     static void printCarToFiltreYearЕxploitation(int year, double price) {
-        for (Car search : carArray) {
-            search.printCar();
-
+        if (carArray.length > 0) {
+            for (Car search : carArray) {
+                search.printCar();
+            }
         }
     }
 

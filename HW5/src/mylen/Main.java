@@ -10,7 +10,7 @@ public class Main {
         arrayCar[3] = new Car(4, "VOLVO", "LS-3", 2018, "green", 2500.00, "SDG452GGHH");
         arrayCar[4] = new Car(4, "BMW", "3823", 2019, "black", 33000.00, "SDG452GGHH");
         arrayCar[5] = new Car(4, "Opel", "3823", 2018, "black", 33000.00, "SDG452GGHH");
-        CarProccesor cars=new CarProccesor(arrayCar);
+       CarProccesor cars=new CarProccesor(arrayCar);
 
         System.out.println ("Filter from model:");
         printCarToModel (arrayCar, "RX3");
