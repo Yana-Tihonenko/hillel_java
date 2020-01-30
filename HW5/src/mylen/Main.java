@@ -10,12 +10,19 @@ public class Main {
         arrayCar[3] = new Car(4, "VOLVO", "LS-3", 2018, "green", 2500.00, "SDG452GGHH");
         arrayCar[4] = new Car(4, "BMW", "3823", 2019, "black", 33000.00, "SDG452GGHH");
         arrayCar[5] = new Car(4, "Opel", "3823", 2018, "black", 33000.00, "SDG452GGHH");
+        CarProccesor cars=new CarProccesor(arrayCar);
+
         System.out.println ("Filter from model:");
         printCarToModel (arrayCar, "RX3");
+        printCarToModel ( "RX3");
+
         System.out.println ("Filter from model+year:");
         printCarToFiltreYearЕxploitation( arrayCar,"3823",2019 );
+        printCarToFiltreYearЕxploitation( "3823",2019 );
+
         System.out.println ("Filter from year+price:");
         printCarToFiltreYearЕxploitation (arrayCar, 2019, 30000.00);
+        printCarToFiltreYearЕxploitation (2019, 30000.00);
 
         Recursion pintprintFromN= new Recursion();
         // sutask 2
