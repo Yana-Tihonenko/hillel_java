@@ -12,6 +12,7 @@ import java.io.PrintWriter;
 import java.util.Date;
 
 import static service.SortIntNumber.sortArrayIntNumber;
+@WebServlet("/SortArrayIntNumber")
 
 public class SortArrayIntNumber extends HttpServlet {
     @Override

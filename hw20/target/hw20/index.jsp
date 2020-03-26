@@ -7,12 +7,12 @@
 <body>
 <h1>My first web-app</h1>
 <p>Enter numbers through by commas</p>
-<form method="post" action="/views/sortnumber.jsp">
+<form method="post" action="/SortArrayIntNumber">
     <p><input name="sortnumber" type="text" ></p>
     <p><input type="submit" value="Sort"></p>
 </form>
 <p>Enter word</p>
-<form method="post" action="/views/findword.jsp" >
+<form method="post" action="/FindWordEnteredByUser" >
     <p><input name="findword" type="text"></p>
     <p><input type="submit" value="Find"></p>
 </form>
